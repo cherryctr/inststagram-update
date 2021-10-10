@@ -143,13 +143,63 @@ body {
 .content .content-right .content-right-mid {
     background-color: darkorange;
     width: 350px;
-    height: 300px;
+    height: 359px;
+    padding-top: 40px;
+}
+
+.content .content-right .content-right-mid .content-person {
+    background-color: pink;
+    width: 350px;
+    height: 80px;
+    margin-top: 8px;
+}
+
+
+.content .content-right .content-right-mid .content-person img {
+    float: left;
+    width: 45px;
+    height: 45px;
+    border-radius: 34px;
+    margin-top: 14px;
+    margin-right: 10px;
+    margin-left: 11px;
+
+}
+
+.content .content-right .content-right-mid .content-person p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* width: 171px; */
+    color: gray;
+    font-size: 13px;
+}
+
+
+.content .content-right .content-right-mid .content-person h4 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 17px;
+
+}
+
+.content .content-right .content-right-mid .content-person .button-follow {
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-top: -48px;
+    margin-right: -7px;
+    padding-top: 23px;
+}
+
+.content .content-right .content-right-mid .content-person .button-follow a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: dodgerblue;
+    margin-top: 1px;
 }
 
 .content .content-right .content-right-mid h2 {
     float: left;
     color: grey;
-    margin-top: 12px;
+    margin-top: -29px;
     margin-left: 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
@@ -159,7 +209,7 @@ body {
 .content .content-right .content-right-mid a {
     float: right;
     color: black;
-    margin-top: 15px;
+    margin-top: -25px;
     margin-right: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
@@ -187,6 +237,20 @@ body {
     height: 149px; 
 }
 
+.content .content-right .content-right-footer ul {
+    list-style-type: none;
+}
+
+.content .content-right .content-right-footer ul li {
+    float: left;
+    width: 50px;
+    margin-left: 10px;
+}
+
+
+.content .content-right .content-right-footer ul li a {
+    padding-left: 10px;
+}
 /*  Style for content left  */
 .content .content-left {
     background-color: red;
